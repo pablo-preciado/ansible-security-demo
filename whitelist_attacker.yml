@@ -28,6 +28,7 @@
         destination: "asa-{{ destination_ip }}"
         action: accept
 
+
     - name: Install policy
       cp_mgmt_install_policy:
         policy_package: standard
